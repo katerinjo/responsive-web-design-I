@@ -201,9 +201,9 @@ header .logo {
 }
 
 .main-content .top-content .text-content {
-  width: 410px;
+  /* width: 410px; */
   display: inline-block;
-  margin-right: 34px;
+  margin: 20px;
 }
 
 .main-content .top-content .text-content:last-child {
@@ -223,9 +223,9 @@ header .logo {
 }
 
 .main-content .bottom-content .text-content {
-  width: 275px;
+  /* width: 275px; */
   display: inline-block;
-  margin-right: 12px;
+  margin: 10px;
 }
 
 .main-content .bottom-content .text-content:last-child {
