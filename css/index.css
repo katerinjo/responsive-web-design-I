@@ -146,13 +146,18 @@ header .logo {
 
 /* cta */
 
+.cta {
+    display: flex;
+    justify-content: space-around;
+}
+
 .cta .cta-text {
   display: inline-block;
   vertical-align: top;
   font-size: 77px;
   margin-top: 120px;
   text-align: center;
-  padding: 0px 75px;
+  /* padding: 0px 75px; */
 }
 
 .cta .cta-text button {
@@ -171,9 +176,17 @@ header .logo {
 }
 
 .cta img {
-  display: inline-block;
+  /* display: inline-block; */
   margin-top: 69px;
 }
+
+@media (max-width: 800px) {
+    .cta img {
+        display: none;
+    }
+}
+
+/* main content */
 
 .main-content {
   border-top: 1px solid black;
