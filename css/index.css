@@ -196,6 +196,8 @@ header .logo {
 
 .main-content .top-content {
   padding: 0 10px;
+  display: flex;
+  justify-content: space-around;
 }
 
 .main-content .top-content .text-content {
@@ -209,12 +211,15 @@ header .logo {
 }
 
 .main-content .middle-img {
-  margin-top: 45px;
+  margin: 45px 10px 0 10px;
+  width: 100%;
 }
 
 .main-content .bottom-content {
   margin-top: 37px;
   padding: 0 10px;
+  display: flex;
+  justify-content: space-around;
 }
 
 .main-content .bottom-content .text-content {
@@ -225,6 +230,12 @@ header .logo {
 
 .main-content .bottom-content .text-content:last-child {
   margin-right: 0;
+}
+
+@media (max-width: 500px) {
+    .main-content .top-content, .main-content .bottom-content {
+        flex-direction: column;
+    }
 }
 
 .contact {
